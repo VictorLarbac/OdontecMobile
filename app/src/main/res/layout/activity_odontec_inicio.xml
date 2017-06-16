@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/f"
+        android:src="@drawable/button"
         android:scaleType="fitXY"
         />
 
@@ -40,20 +40,28 @@
         >
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
-            android:id="@+id/btAnest"/>
+            android:id="@+id/btAnest"
+            android:text="Anestesiologia"/>
+
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
-            android:id="@+id/btFarmaco"/>
+            android:id="@+id/btFarmaco"
+            android:text="Farmacologia"
+            />
+
+
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
             android:layout_gravity="center"
-            android:id="@+id/btInfor"/>
+            android:id="@+id/btInfor"
+            android:text="informações"/>
     </LinearLayout>
 
 

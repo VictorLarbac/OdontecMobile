@@ -2,5 +2,10 @@
     <string name="app_name">odontec</string>
     <string name="title_activity_odontec_inicial">OdontecInicial</string>
     <string name="your_string_here">This is an <u>underline</u>.</string>
+
+    <string name="facebook_app_id">1962626993958953</string>
+    <string name="firebase_error_login">Erro</string>
+
+
 </resources>
 
